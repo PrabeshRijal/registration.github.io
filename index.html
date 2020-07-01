@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Motherland Registration Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<section class="registration-form-wrapper">
+    <div class="registration-image">
+        <img src="images/registration.png" alt="">
+        <img src="images/registration.png" alt="">
+    </div>
+    <!-- form-intro -->
+    <section class="form-intro-section container">
+        <div class="form-intro">
+            <img src="images/motherland-logo.png" alt="">
+        </div>
+        <div class="form-intro-info">
+            <h1>Motherland Secondary School</h1>
+            <p>Email: motherlandpokhara@gmail.com</p>
+            <p>Phone: 061-463256, 061-464256</p>
+        </div>
+        <div class="registration">
+            <h1>Registration / Scholarship Form</h1><hr>
+        </div>
+    </section>
+    <!-- form-intro -->
+
+    <!-- form-basic -->
+    <section class="form-section">
+        <div class="container form-basic" id="container-width">
+            <div class="form-container">
+                <form action="">
+                    <div class="container" id="my-form">
+                        <div class="my-header">
+                            <h1 id="heading">Basic Information</h1>
+                        </div>
+                        <div class="row mt-4">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Full Name<span id="required">*</span></label>
+                                <input type="text" placeholder="Enter Full Name" required>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Date Of Birth<span id="required">*</span></label>
+                                <input type="date" placeholder="Enter DOB" required>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Contact Number<span id="required">*</span></label>
+                                <input type="number" placeholder="Enter Contact Number" required>
+                            </div>
+                        </div>
+                        <div class="row mt-3">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Upload Photo<span id="required">*</span></label>
+                                <div class="custom-file" id="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile" name="filename">
+                                    <label class="custom-file-label" for="customFile">Choose File</label>
+                                  </div>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">District<span id="required">*</span></label>
+                                <select>
+                                    <option value="">Select District</option>
+                                    <option value="Achham">Achham</option>
+                                    <option value="Arghakhanchi">Arghakhanchi</option>
+                                    <option value="Baglung">Baglung</option>
+                                    <option value="Baitadi">Baitadi</option>
+                                    <option value="Bajhang">Bajhang</option>
+                                    <option value="Bajura">Bajura</option>
+                                    <option value="Banke">Banke</option>
+                                    <option value="Bara">Bara</option>
+                                    <option value="Bardiya">Bardiya</option>
+                                    <option value="Bhaktapur">Bhaktapur</option>
+                                    <option value="Bhojpur">Bhojpur</option>
+                                    <option value="Chitwan">Chitwan</option>
+                                    <option value="Dadeldhura">Dadeldhura</option>
+                                    <option value="Dailekh">Dailekh</option>
+                                    <option value="Dang">Dang</option>
+                                    <option value="Darchula">Darchula</option>
+                                    <option value="Dhading">Dhading</option>
+                                    <option value="Dhankuta">Dhankuta</option>
+                                    <option value="Dhanusa">Dhanusa</option>
+                                    <option value="Dolakha">Dolakha</option>
+                                    <option value="Dolpa">Dolpa</option>
+                                    <option value="Doti">Doti</option>
+                                    <option value="Eastern Rukum">Eastern Rukum</option>
+                                    <option value="Gorkha">Gorkha</option>
+                                    <option value="Gulmi">Gulmi</option>
+                                    <option value="Humla">Humla</option>
+                                    <option value="Ilam">Ilam</option>
+                                    <option value="Jajarkot">Jajarkot</option>
+                                    <option value="Jhapa">Jhapa</option>
+                                    <option value="Jumla">Jumla</option>
+                                    <option value="Kailali">Kailali</option>
+                                    <option value="Kalikot">Kalikot</option>
+                                    <option value="Kanchanpur">Kanchanpur</option>
+                                    <option value="Kapilvastu">Kapilvastu</option>
+                                    <option value="Kaski">Kaski</option>
+                                    <option value="Kathmandu">Kathmandu</option>
+                                    <option value="Kavrepalanchok">Kavrepalanchok</option>
+                                    <option value="Khotang">Khotang</option>
+                                    <option value="Lalitpur">Lalitpur</option>
+                                    <option value="Lamjung">Lamjung</option>
+                                    <option value="Mahottari">Mahottari</option>
+                                    <option value="Makawanpur">Makawanpur</option>
+                                    <option value="Manang">Manang</option>
+                                    <option value="Morang">Morang</option>
+                                    <option value="Mugu">Mugu</option>
+                                    <option value="Mustang">Mustang</option>
+                                    <option value="Myagdi">Myagdi</option>
+                                    <option value="Nawalpur">Nawalpur</option>
+                                    <option value="Nuwakot">Nuwakot</option>
+                                    <option value="Okhaldhunga">Okhaldhunga</option>
+                                    <option value="Palpa">Palpa</option>
+                                    <option value="Panchthar">Panchthar</option>
+                                    <option value="Parasi">Parasi</option>
+                                    <option value="Parbat">Parbat</option>
+                                    <option value="Parsa">Parsa</option>
+                                    <option value="Pyuthan">Pyuthan</option>
+                                    <option value="Ramechhap">Ramechhap</option>
+                                    <option value="Rasuwa">Rasuwa</option>
+                                    <option value="Rautahat">Rautahat</option>
+                                    <option value="Rolpa">Rolpa</option>
+                                    <option value="Rupandehi">Rupandehi</option>
+                                    <option value="Salyan">Salyan</option>
+                                    <option value="Sankhuwasabha">Sankhuwasabha</option>
+                                    <option value="Saptari">Saptari</option>
+                                    <option value="Sarlahi">Sarlahi</option>
+                                    <option value="Sindhuli">Sindhuli</option>
+                                    <option value="Sindhupalchowk">Sindhupalchowk</option>
+                                    <option value="Siraha">Siraha</option>
+                                    <option value="Solukhumbu">Solukhumbu</option>
+                                    <option value="Sunsari">Sunsari</option>
+                                    <option value="Surkhet">Surkhet</option>
+                                    <option value="Syangja">Syangja</option>
+                                    <option value="Tanahun">Tanahun</option>
+                                    <option value="Taplejung">Taplejung</option>
+                                    <option value="Western Rukum">Western Rukum</option>
+                                    <option value="Terhathum">Terhathum</option>
+                                    <option value="Udayapur">Udayapur</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Father's Name<span id="required">*</span></label>
+                                <input type="text" placeholder="Enter Father's Name" required>
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-4">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Father's Contact No</label>
+                                <input type="number" placeholder="Enter Father's Contact Number">
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Mother's Name</label>
+                                <input type="text" placeholder="Enter Mother's Name">
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Mother's Contact No</label>
+                                <input type="number" placeholder="Enter Mother's Contact Number">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- form-basic -->
+
+    <!-- form-academic-details -->
+    <section class="form-section">
+        <div class="container form-basic" id="container-width">
+            <div class="form-container">
+                <form action="">
+                    <div class="container" id="my-form">
+                        <div class="my-header" id="academic-details">
+                            <h1 id="heading">Academic Details (Grade X)</h1>
+                        </div>
+                        <div class="row mt-4">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">School Name<span id="required">*</span></label>
+                                <input type="text" placeholder="Enter School Name" required>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">School Type</label>
+                                <select>
+                                    <option value="Government">Government</option>
+                                    <option value="Community">Community</option>
+                                    <option value="Private">Private</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">School District<span id="required">*</span></label>
+                                <select>
+                                    <option value="">Select District</option>
+                                    <option value="Achham">Achham</option>
+                                    <option value="Arghakhanchi">Arghakhanchi</option>
+                                    <option value="Baglung">Baglung</option>
+                                    <option value="Baitadi">Baitadi</option>
+                                    <option value="Bajhang">Bajhang</option>
+                                    <option value="Bajura">Bajura</option>
+                                    <option value="Banke">Banke</option>
+                                    <option value="Bara">Bara</option>
+                                    <option value="Bardiya">Bardiya</option>
+                                    <option value="Bhaktapur">Bhaktapur</option>
+                                    <option value="Bhojpur">Bhojpur</option>
+                                    <option value="Chitwan">Chitwan</option>
+                                    <option value="Dadeldhura">Dadeldhura</option>
+                                    <option value="Dailekh">Dailekh</option>
+                                    <option value="Dang">Dang</option>
+                                    <option value="Darchula">Darchula</option>
+                                    <option value="Dhading">Dhading</option>
+                                    <option value="Dhankuta">Dhankuta</option>
+                                    <option value="Dhanusa">Dhanusa</option>
+                                    <option value="Dolakha">Dolakha</option>
+                                    <option value="Dolpa">Dolpa</option>
+                                    <option value="Doti">Doti</option>
+                                    <option value="Eastern Rukum">Eastern Rukum</option>
+                                    <option value="Gorkha">Gorkha</option>
+                                    <option value="Gulmi">Gulmi</option>
+                                    <option value="Humla">Humla</option>
+                                    <option value="Ilam">Ilam</option>
+                                    <option value="Jajarkot">Jajarkot</option>
+                                    <option value="Jhapa">Jhapa</option>
+                                    <option value="Jumla">Jumla</option>
+                                    <option value="Kailali">Kailali</option>
+                                    <option value="Kalikot">Kalikot</option>
+                                    <option value="Kanchanpur">Kanchanpur</option>
+                                    <option value="Kapilvastu">Kapilvastu</option>
+                                    <option value="Kaski">Kaski</option>
+                                    <option value="Kathmandu">Kathmandu</option>
+                                    <option value="Kavrepalanchok">Kavrepalanchok</option>
+                                    <option value="Khotang">Khotang</option>
+                                    <option value="Lalitpur">Lalitpur</option>
+                                    <option value="Lamjung">Lamjung</option>
+                                    <option value="Mahottari">Mahottari</option>
+                                    <option value="Makawanpur">Makawanpur</option>
+                                    <option value="Manang">Manang</option>
+                                    <option value="Morang">Morang</option>
+                                    <option value="Mugu">Mugu</option>
+                                    <option value="Mustang">Mustang</option>
+                                    <option value="Myagdi">Myagdi</option>
+                                    <option value="Nawalpur">Nawalpur</option>
+                                    <option value="Nuwakot">Nuwakot</option>
+                                    <option value="Okhaldhunga">Okhaldhunga</option>
+                                    <option value="Palpa">Palpa</option>
+                                    <option value="Panchthar">Panchthar</option>
+                                    <option value="Parasi">Parasi</option>
+                                    <option value="Parbat">Parbat</option>
+                                    <option value="Parsa">Parsa</option>
+                                    <option value="Pyuthan">Pyuthan</option>
+                                    <option value="Ramechhap">Ramechhap</option>
+                                    <option value="Rasuwa">Rasuwa</option>
+                                    <option value="Rautahat">Rautahat</option>
+                                    <option value="Rolpa">Rolpa</option>
+                                    <option value="Rupandehi">Rupandehi</option>
+                                    <option value="Salyan">Salyan</option>
+                                    <option value="Sankhuwasabha">Sankhuwasabha</option>
+                                    <option value="Saptari">Saptari</option>
+                                    <option value="Sarlahi">Sarlahi</option>
+                                    <option value="Sindhuli">Sindhuli</option>
+                                    <option value="Sindhupalchowk">Sindhupalchowk</option>
+                                    <option value="Siraha">Siraha</option>
+                                    <option value="Solukhumbu">Solukhumbu</option>
+                                    <option value="Sunsari">Sunsari</option>
+                                    <option value="Surkhet">Surkhet</option>
+                                    <option value="Syangja">Syangja</option>
+                                    <option value="Tanahun">Tanahun</option>
+                                    <option value="Taplejung">Taplejung</option>
+                                    <option value="Western Rukum">Western Rukum</option>
+                                    <option value="Terhathum">Terhathum</option>
+                                    <option value="Udayapur">Udayapur</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-3">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Send-Up Gradesheet</label>
+                                <div class="custom-file" id="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile" name="filename">
+                                    <label class="custom-file-label" for="customFile">Choose File</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">GPA In Send-Up</label>
+                                <input type="number" placeholder="Enter GPA In Send-Up">
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Position In Sent-Up</label>
+                                <select>
+                                    <option value="">Select Your Position</option>
+                                    <option value="Topper">1st Topper</option>
+                                    <option value="SecondToper">2nd Topper</option>
+                                    <option value="ThirdTopper">3rd Topper</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-4">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Interested Course To Study(+2)<span id="required">*</span></label>
+                                <select>
+                                    <option value="">Select Course First</option>
+                                    <option value="science">Science </option>
+                                    <option value="management">Management </option>
+                                    <option value="humanities">Humanities(Law)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- form-academic-details -->
+
+    <!-- for online classes-->
+    <section class="form-section">
+        <div class="container form-basic" id="container-width">
+            <div class="form-container">
+                <form action="">
+                    <div class="container" id="my-form">
+                        <div class="my-header" id="online-classes">
+                            <h1 id="heading">For Online Class (If Necessary)</h1>
+                        </div>
+                        <div class="row mt-4 mb-4">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Device Available for Online Class<span id="required">*</span></label>
+                                <select>
+                                    <option value="">Select Your Device</option>
+                                    <option value="Latop">Laptop</option>
+                                    <option value="Tablet">Tablet</option>
+                                    <option value="Desktop">Desktop</option>
+                                    <option value="Smartphone">Smartphone</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Internet Gateway</label>
+                                <select>
+                                    <option value="wifi">Wifi</option>
+                                    <option value="4g3g">4G/3G</option>
+                                    <option value="LimitedNetwork">Limited Network</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- for online classes -->
+
+    <!-- Scholarship Information-->
+    <section class="form-section">
+        <div class="container form-basic" id="container-width">
+            <div class="form-container">
+                <form action="">
+                    <div class="container" id="my-form">
+                        <div class="my-header" id="scholarship">
+                            <h1 id="heading">Scholarship Information</h1>
+                        </div>
+                        <div class="row mt-4 mb-3">   
+                            <div class="col-md-6" id="form-alignment">
+                                <label for="">Do you want to apply for Scholarships to study +2?</label>
+                                <label class="radio" id="radio">
+                                    <input type="radio" name="choice" id="radio-alingenmet"><span>Yes</span>
+                                </label>
+                                <label class="radio" id="radio">
+                                    <input type="radio" name="choice" id="radio-alingenmet"><span>No</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Scholarship Information-->
+
+    <!-- Interest On Extra Activities-->
+    <section class="form-section">
+        <div class="container form-basic" id="container-width">
+            <div class="form-container">
+                <form action="">
+                    <div class="container" id="my-form">
+                        <div class="my-header" id="interest">
+                            <h1 id="heading">Interest On Extra Activities</h1>
+                        </div>
+                        <div class="row mt-4 mb-2">   
+                            <div class="col-md-6" id="form-alignment">
+                                <label class="radio" id="radio">
+                                    <input type="checkbox" name="check" id="radio-alingenmet"><span>Sport</span>
+                                </label>
+                                <label class="radio" id="radio">
+                                    <input type="checkbox" name="check" id="radio-alingenmet"><span>Science Experiment and Exhibition</span>
+                                </label>
+                                <label class="radio" id="radio">
+                                    <input type="checkbox" name="check" id="radio-alingenmet"><span>Literature</span>
+                                </label>
+                                <label class="radio" id="radio">
+                                    <input type="checkbox" name="check" id="radio-alingenmet"><span>Others</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Interest On Extra Activities -->
+
+    <!-- login-info -->
+    <section class="form-section">
+        <div class="container form-basic" id="container-width">
+            <div class="form-container">
+                <form action="">
+                    <div class="container" id="my-form">
+                        <div class="my-header">
+                            <h1 id="heading">Login Information</h1>
+                        </div>
+                        <div class="row mt-4">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Email Address<span id="required">*</span></label>
+                                <input type="text" placeholder="Enter Email Address" required>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Confirm Email Address<span id="required">*</span></label>
+                                <input type="text" placeholder="Re-enter Email Address" required>
+                            </div>
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Create Password<span id="required">*</span></label>
+                                <input type="password" placeholder="Enter Password" required>
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-4">   
+                            <div class="col-md-4" id="form-alignment">
+                                <label for="">Conform Password<span id="required">*</span></label>
+                                <input type="password" placeholder="Re-enter Password" required>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- login-info -->
+
+    <!-- form-conformation -->
+    <section class="form-conformation-section">
+        <div class="form-agree">
+            <div class="container"><hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="d-inline-info">
+                            <label class="radio" id="radio">
+                                <input type="checkbox" name="check">
+                            </label>
+                        </div>
+                        <div id="d-inline-info">
+                            <p>I have read, understood and agreed to be bound by the Terms and Conditions of Capital College And Research Center. I hereby declare that the information supplied herein is true and correct.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="submit-section d-flex justify-content-center">
+            <div class="submit-btn">
+                <button>Submit Form <i class="fa fa-send"></i></button>
+            </div>
+            <div class="cancel-btn">
+                <button>Cancel Form <i class="fa fa-close"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- form-conformation -->
+</section>
+
+<script src="js/my-js.js"></script>
+</body>
+</html>
