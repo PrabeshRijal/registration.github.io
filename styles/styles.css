@@ -121,6 +121,7 @@ button
     width: 230px;
     text-align: center;
     position: absolute;
+    left: 5px;
     background: #fff !important;
     box-shadow: 0 4px 20px 1px rgba(0,0,0,.06), 0 1px 4px rgba(0,0,0,.08);
     margin-top: -52px;
@@ -437,7 +438,21 @@ button
         width: 20%;
     }
 }
-
+@media only screen and (max-width: 450px) 
+{
+    #academic-details
+    {
+        width: 248px;
+    }
+    #online-classes
+    {
+        width: 284px;
+    }
+    #interest
+    {
+        width: 260px;
+    }
+}
 @media only screen and (max-width: 414px) 
 {
     #my-form input, #my-form select
@@ -499,6 +514,10 @@ button
     .form-intro-section .form-intro img
     {
         width: 20%;
+    }
+    #scholarship 
+    {
+        width: 214px;
     }
 }
 
